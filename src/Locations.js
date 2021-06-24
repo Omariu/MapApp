@@ -5,7 +5,6 @@ const Locations = (props) => {
   const view = props.view;
 
   useEffect(() => {
-    console.log("--");
     loadModules(["esri/Graphic"]).then(([Graphic]) => {
       const geo = {
         type: "point",

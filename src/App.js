@@ -1,6 +1,8 @@
-import Locations from "./Locations";
-
 import { Map } from "@esri/react-arcgis";
+import Locations from "./Locations";
+import AddLocation from "./AddLocation";
+
+import Widgets from "./widgets";
 
 function App() {
   return (
@@ -10,10 +12,12 @@ function App() {
         mapProperties={{ basemap: "dark-gray" }}
         viewProperties={{
           zoom: 3,
-          center: [35, 35],
+          // center: [35, 35],
         }}
       >
         <Locations />
+        <AddLocation />
+        <Widgets />
       </Map>
     </div>
   );
