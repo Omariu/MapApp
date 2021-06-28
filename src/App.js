@@ -9,13 +9,13 @@ function App() {
     <div>
       <Map
         style={{ width: "100%", height: "100vh" }}
-        mapProperties={{ basemap: "dark-gray" }}
+        mapProperties={{ basemap: "hybrid" }}
         viewProperties={{
           zoom: 3,
-          // center: [35, 35],
+          center: [35, 35],
         }}
       >
-        <Locations />
+        {/* <Locations /> */}
         <AddLocation />
         <Widgets />
       </Map>
