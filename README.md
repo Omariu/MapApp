@@ -1,5 +1,5 @@
-ReactJs with ESRI ArcGIS API for JavaScript
+# ReactJs with ESRI ArcGIS API for JavaScript
 
-npm install
+**npm install
 
-npm start
+**npm start
